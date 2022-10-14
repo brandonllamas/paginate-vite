@@ -1,7 +1,7 @@
 import { Card, Nav } from 'react-bootstrap';
 import { Button } from '@mui/material';
 import  "../index.css"
-const paginator = ({ countPages=1, page, newPage }) => {
+const Paginator = ({ countPages=1, page, newPage }) => {
 
     return (
         <div style={{marginLeft:"20px"}}>
@@ -32,4 +32,4 @@ const paginator = ({ countPages=1, page, newPage }) => {
     )
 }
 
-export default paginator
+export default Paginator
